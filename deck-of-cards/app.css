@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(20, 190, 28);
+    
+}
+
+
+#card-cont{
+    display: flex;
+    flex-direction: column;          
+    justify-content: center;
+    align-items: center;
+    
+    margin-top:40px;
+   
+}
+
+#deck-cont{
+    display: flex; 
+    flex-direction: column;          
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+#deck-cont div{
+    justify-content: center;
+    align-items: center;
+    display: block; 
+    flex-direction: column; 
+    margin-right: 220px;
+}
+
+#deck-cont img{
+    position: absolute;
+    
+    
+}
+
+
+#button-cont{
+  display: inline-block;
+  
+  position: fixed;
+  margin: 15px;
+  top: 0;
+  background-color: rgb(20, 190, 28);
+}
+#button-cont button{
+   color: rgb(218, 206, 48);
+   background-color: rgb(224, 68, 40);
+   border-radius: 3px;
+   border:  solid rgb(218, 206, 48);
+   width:100px;
+   height: 45px;
+}
+
+#foot{
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#messages-cont{
+    padding: 30px;
+}
